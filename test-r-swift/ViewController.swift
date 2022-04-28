@@ -8,10 +8,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    typealias SetFont = R.font
+    
+    @IBOutlet weak var label: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        label.font = SetFont.poppinsBold(size: 44)
     }
 
 

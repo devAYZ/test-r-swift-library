@@ -75,6 +75,7 @@
 		B72C5EAB281AD02900A57EFC /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		B72C5EAD281AD04A00A57EFC /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		B72C5EAE281AD04B00A57EFC /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		B72C5EB1281AD38600A57EFC /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +169,7 @@
 				B72C5E79281AC5AD00A57EFC /* Assets.xcassets */,
 				B72C5E7B281AC5AD00A57EFC /* LaunchScreen.storyboard */,
 				B72C5E7E281AC5AD00A57EFC /* Info.plist */,
+				B72C5EB1281AD38600A57EFC /* Base.xcconfig */,
 				B72C5EA0281AC8F300A57EFC /* Prod.xcconfig */,
 				B72C5EA1281AC90900A57EFC /* Dev.xcconfig */,
 				B72C5EAB281AD02900A57EFC /* R.generated.swift */,

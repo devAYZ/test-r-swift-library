@@ -7,7 +7,10 @@
 
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
-#include "/Users/afatokimi/Downloads/test-r-swift/Pods/Target Support Files/Pods-test-r-swiftTests/Pods-test-r-swiftTests.release (prod).xcconfig"
-#include "/Users/afatokimi/Downloads/test-r-swift/Pods/Target Support Files/Pods-test-r-swiftTests/Pods-test-r-swiftTests.debug (prod).xcconfig"
+#include "Pods/Target Support Files/Pods-test-r-swift/Pods-test-r-swift.debug (prod).xcconfig"
+#include "Pods/Target Support Files/Pods-test-r-swift/Pods-test-r-swift.release (prod).xcconfig"
 
-APP_NAME = test-rSwift
+#include "Base.xcconfig"
+
+APP_NAME = $(inherited)
+

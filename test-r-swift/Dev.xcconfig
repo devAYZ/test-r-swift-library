@@ -9,11 +9,14 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 //#include "Pods/Target Support Files/Pods-test-r-swift-/Pods-test-r-swift-.debug (Dev).xcconfig"
-#include "/Users/afatokimi/Downloads/test-r-swift/Pods/Target Support Files/Pods-test-r-swiftTests/Pods-test-r-swiftTests.debug (dev).xcconfig"
-#include "/Users/afatokimi/Downloads/test-r-swift/Pods/Target Support Files/Pods-test-r-swiftTests/Pods-test-r-swiftTests.release (dev).xcconfig"
+#include "Pods/Target Support Files/Pods-test-r-swift/Pods-test-r-swift.debug (dev).xcconfig"
+#include "Pods/Target Support Files/Pods-test-r-swift/Pods-test-r-swift.release (dev).xcconfig"
 
-//#include "/Target Support Files/Pods-test-r-swift/Pods-test-r-swift-frameworks-Debug (Dev)-input-files.xcfilelist"
 
-//#include "Pods/Target Support Files/Pods-useforms-ios/Pods-useforms-ios.release (dev).xcconfig"
+//#include "Pods/Target Support Files/Pods-carbon-ios-app/Pods-carbon-ios-app.debug (production).xcconfig"
+//#include "Pods/Target Support Files/Pods-carbon-ios-app/Pods-carbon-ios-app.release (production).xcconfig"
 
-APP_NAME = test-rSwift Dev
+#include "Base.xcconfig"
+
+APP_NAME = $(inherited) Test
+
