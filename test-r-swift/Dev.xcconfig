@@ -1,0 +1,19 @@
+//
+//  Dev.xcconfig
+//  test-r-swift
+//
+//  Created by Ayokunle Fatokimi on 28/04/2022.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+//#include "Pods/Target Support Files/Pods-test-r-swift-/Pods-test-r-swift-.debug (Dev).xcconfig"
+#include "/Users/afatokimi/Downloads/test-r-swift/Pods/Target Support Files/Pods-test-r-swiftTests/Pods-test-r-swiftTests.debug (dev).xcconfig"
+#include "/Users/afatokimi/Downloads/test-r-swift/Pods/Target Support Files/Pods-test-r-swiftTests/Pods-test-r-swiftTests.release (dev).xcconfig"
+
+//#include "/Target Support Files/Pods-test-r-swift/Pods-test-r-swift-frameworks-Debug (Dev)-input-files.xcfilelist"
+
+//#include "Pods/Target Support Files/Pods-useforms-ios/Pods-useforms-ios.release (dev).xcconfig"
+
+APP_NAME = test-rSwift Dev
